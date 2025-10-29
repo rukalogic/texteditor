@@ -1,6 +1,6 @@
 # TextEditor
 
-A small text editor project — lightweight GUI application for creating, editing, and saving plain text files. Intended as a learning/demo app and starting point for further features.
+A simple small text editor project — lightweight GUI application for creating, editing, and saving plain text files. Intended as a learning/demo app and starting point for further features.
 
 ## Features
 - Open and save plain text files
