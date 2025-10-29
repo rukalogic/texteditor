@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Images\window-icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Images\google.png" />
+      <Resource Include="Images\google.png" />
+      <None Remove="Images\icons8-edit-64.png" />
+      <Resource Include="Images\icons8-edit-64.png" />
+      <None Remove="Images\icons8-folder-48.png" />
+      <Resource Include="Images\icons8-folder-48.png" />
+      <None Remove="Images\icons8-view-64.png" />
+      <Resource Include="Images\icons8-view-64.png" />
+      <None Remove="Images\window-icon.png" />
+      <Resource Include="Images\window-icon.png" />
+      <None Remove="Images\icons8-save-48.png" />
+      <Resource Include="Images\icons8-save-48.png" />
+      <None Remove="Images\icons8-plus-48.png" />
+      <Resource Include="Images\icons8-plus-48.png" />
+      <None Remove="Images\icons8-font-size-50.png" />
+      <Resource Include="Images\icons8-font-size-50.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\window-icon.ico" />
+      <Content Include="Images\window-icon.ico" />
+    </ItemGroup>
+
+</Project>
